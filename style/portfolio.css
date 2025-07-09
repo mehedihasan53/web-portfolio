@@ -80,7 +80,7 @@ nav li a {
     margin: 0 35px 0 230px;
 }
 
-.banner-greeting {
+.banner-greetings{
     font-size: 45px;
     font-weight: 600px;
 
@@ -88,7 +88,8 @@ nav li a {
 
 .banner-title {
     font-weight: bold;
-    font-size: 66px;
+    font-size: 70px;
+    margin-top: 5px;
 }
 
 .banner-description {
@@ -212,6 +213,9 @@ footer {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
+}
+.footer-img{
+    margin-top: 30px;
 }
 
 .footer-column {
