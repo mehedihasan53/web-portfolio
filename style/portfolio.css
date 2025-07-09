@@ -1,36 +1,42 @@
-
-
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* shared style */
-.secondary-bg{
+.secondary-bg {
     background-color: #FFF8F3;
 }
-.text-primary{
-    color:#FD6E0A
+
+.text-primary {
+    color: #FD6E0A
 }
+
+.text-center {
+    text-align: center;
+}
+
 /* header */
-.header{
-    background-image:url('../images/developer.png'),url('../images/header_bg.png');
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
 /* Nav style */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 200px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 20px;
     color: white;
     padding: 18px 35px;
@@ -38,79 +44,115 @@ nav{
     border: none;
 
 }
-.drak-2{
+
+.drak-2 {
     color: #474747;
 }
-.drak-3{
+
+.drak-3 {
     color: #757575;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 51px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     font-size: 20px;
 }
+
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 230px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
-    font-weight:600px;
+    font-weight: 600px;
 
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 66px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
 }
-.banner-img{
+
+.banner-img {
     width: 584px;
     height: 676px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     color: #757575;
-    /* main style */
-    main{
-        max-width: 1140px;
-        margin: 0 auto;
-    }
 }
+
+/* main style */
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about */
-.about{
+.about {
     border-radius: 10px;
     padding: 128px 148px;
     text-align: center;
-    margin-top: 130px;
+
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+
+.item-description {
     font-weight: 700px;
     color: #474747;
 }
-.item-title{
+
+.item-title {
     color: #757575;
+}
+
+/* skill section */
+.skill-continer {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.shill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px #000000;
 }
