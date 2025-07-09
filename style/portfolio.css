@@ -156,3 +156,63 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px #000000;
 }
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+/* .resume-column-title{
+    font-size:30px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 30px; */
+    
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: 600px;
+    color: #474747;
+}
+
+/* portfolio section */
+.portfolio-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.portfolio-item{
+    width: 100%;
+}
+.download-button{
+    margin-top: 50px;
+}
+/* Footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
