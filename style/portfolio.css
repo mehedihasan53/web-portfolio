@@ -158,57 +158,68 @@ main {
 }
 
 /* resume section */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 24px;
 }
-.experience-sub-title{
+
+.experience-sub-title {
     font-size: 20px;
     font-weight: 600px;
     margin-bottom: 20px;
 }
 
-.experience-description, .experience-sub-title{
+.experience-description,
+.experience-sub-title {
     color: #757575;
 }
-.resume hr{
+
+.resume hr {
     margin: 30px 5px;
 }
+
 /* .resume-column-title{
     font-size:30px;
     font-weight: 600px;
     color: #474747;
     margin-bottom: 30px; */
-    
+
 }
-.experience-title{
+
+.experience-title {
     font-size: 25px;
     font-weight: 600px;
     color: #474747;
 }
 
 /* portfolio section */
-.portfolio-container{
+.portfolio-container {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
-.portfolio-item{
+
+.portfolio-item {
     width: 100%;
 }
-.download-button{
+
+.download-button {
     margin-top: 50px;
 }
+
 /* Footer style */
-footer{
+footer {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
-input[type="text"], footer textarea{
+
+input[type="text"],
+footer textarea {
     height: 64px;
     border-radius: 5px;
     background-color: white;
